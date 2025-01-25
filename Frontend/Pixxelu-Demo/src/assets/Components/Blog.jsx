@@ -13,6 +13,8 @@ function Blog() {
   const products = async () => {
        await  fetch("http://localhost:9000/") 
   }
+
+  
   return (
     <>
       <div className="text-center mb-8">

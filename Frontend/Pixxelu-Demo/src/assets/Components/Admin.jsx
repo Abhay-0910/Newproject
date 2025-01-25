@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 function Admin() {
 
   const [List, setList] = useState([
-    {"Name":"Profile","Link":"/Profile"},
-    {"Name":"Categories","Link":"/Categories"},
-    {"Name":"Post","Link":"/Posts"},
+    {"Name":"PROFILE","Link":"/Profile"},
+    {"Name":"CATEGORIES","Link":"/Categories"},
+    {"Name":"POST","Link":"/Posts"},
 ])
   return (
     <>
     <header>
-      <div> 
+      <div className="bg-zinc-600"> 
       <ul className="flex align-middle justify-evenly">
       {
         List.map((Items,index) => {
-          return <li className="flex align-middle justify-around" key={index}><Link to={Items.Link}>{Items.Name}</Link></li>
+          return <li className="flex align-middle justify-around text-amber-600 text-xl " key={index}><Link to={Items.Link}>{Items.Name}</Link></li>
         })
       }
 

@@ -9,6 +9,7 @@ import Register from './assets/Components/Register'
 import Login from './assets/Components/Login'
 import Userdata from './assets/Components/Userdata'
 
+
 function App() {
   return (
    <>
@@ -21,7 +22,6 @@ function App() {
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Userdata' element={<Userdata/>}/>
         <Route path='/Admin' element={<Admin/>}/>
-      
       </Routes>
     </BrowserRouter>
 
