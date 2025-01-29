@@ -10,7 +10,7 @@ const fs = require('fs');
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, "Upload/"); // Save the file in 'uploads' folder
+        cb(null, "Upload/"); 
     },
     filename: (req, file, cb) => {
         cb(null, file.originalname);
