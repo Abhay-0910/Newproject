@@ -14,15 +14,13 @@ function Admin() {
       <ul className="flex align-middle justify-evenly">
       {
         List.map((Items,index) => {
-          return <li className="flex align-middle justify-around text-amber-600 text-xl " key={index}><Link to={Items.Link}>{Items.Name}</Link></li>
+          return <li className="flex align-middle justify-around text-amber-600 text-xl hover:text-red-700" key={index}><Link to={Items.Link}>{Items.Name}</Link></li>
         })
       }
-
       </ul>
-
-      
       </div>
     </header>
+
 
 
 
