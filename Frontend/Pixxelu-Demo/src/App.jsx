@@ -8,8 +8,6 @@ import Admin from './assets/Components/Admin'
 import Register from './assets/Components/Register'
 import Login from './assets/Components/Login'
 import Userdata from './assets/Components/Userdata'
-import Update from './assets/Components/Update'
-import AdminNav from './assets/Components/AdminNav'
 import Categories from './assets/Components/Categories'
 
 

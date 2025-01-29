@@ -5,7 +5,6 @@ function Admin() {
   return (
     <>
   
-
       <div className="bg-black text-white flex min-h-screen flex-col items-center pt-16 sm:justify-center sm:pt-0">
         <Link to="#">
           <div className="text-foreground font-semibold text-2xl tracking-tighter mx-auto flex items-center gap-2">
