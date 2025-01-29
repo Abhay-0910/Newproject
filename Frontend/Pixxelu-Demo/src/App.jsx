@@ -12,6 +12,7 @@ import Update from './assets/Components/Update'
 import AdminNav from './assets/Components/AdminNav'
 import Categories from './assets/Components/Categories'
 
+
 function App() {
 //  const location=useLocation()
   return (
@@ -26,8 +27,6 @@ function App() {
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Userdata' element={<Userdata/>}/>
         <Route path='/Admin' element={<Admin/>}/>
-        <Route path='/Update' element={<Update/>}/>
-        <Route path='/AdminNav' element={<AdminNav/>}/>
       </Routes>
     </BrowserRouter>
 
